@@ -6,9 +6,9 @@
 ![SQLite](https://img.shields.io/badge/SQL-SQLite-003B57?logo=sqlite)
 ![Excel](https://img.shields.io/badge/Datos-Excel-217346?logo=microsoftexcel&logoColor=white)
 
-Portafolio de **Jhon Aguila** — ejercicios resueltos de análisis de datos aplicados a procesamiento de minerales: flotación, clasificación con hidrociclones, oro refractario, balances metalúrgicos, machine learning y SQL.
+Portafolio de **Jhon Aguila** — ejercicios resueltos de análisis de datos aplicados a procesamiento de minerales: flotación, gravimetría, lixiviación (cianuración), clasificación con hidrociclones, oro refractario, balances metalúrgicos, machine learning y SQL.
 
-> 📌 **Todos los datos son simulados.** Las minas, plantas y lugares (Cerro Kori, San Jacinto, Pukamayu, Valle Kollpa, Qorimayo, Wayra, Apumarca, región de Altomayo) son **ficticios**. Ningún dato corresponde a operaciones reales.
+> 📌 **Todos los datos son simulados.** Las minas, plantas y lugares (Cerro Kori, San Jacinto, Pukamayu, Valle Kollpa, Qorimayo, Wayra, Apumarca, Río Suri, Nevado Kachi, región de Altomayo) son **ficticios**. Ningún dato corresponde a operaciones reales.
 
 ---
 
@@ -23,13 +23,15 @@ Portafolio de **Jhon Aguila** — ejercicios resueltos de análisis de datos apl
 | 5 | 🔴 Avanzado | [Oro refractario: diagnóstico de recuperación](notebooks/05_avanzado_oro_refractario.ipynb) | Au <20 µm encapsulado en sulfuros, remolienda vs pre-oxidación, regresión | [Excel](data/05_oro_refractario_qorimayo.xlsx) |
 | 6 | 🔴 Avanzado | [ML: predicción de recuperación de flotación](notebooks/06_avanzado_ml_recuperacion.ipynb) | Random Forest, train/test, importancia de variables, simulador | [Excel](data/06_flotacion_ml_wayra.xlsx) |
 | 7 | 🔴 Avanzado | [SQL desde cero con datos de planta](notebooks/07_avanzado_sql_planta.ipynb) | SQLite, SELECT, WHERE, GROUP BY, JOIN, Pareto de paradas | [Excel](data/07_planta_turnos_apumarca.xlsx) |
+| 8 | 🟢 Básico | [Concentración gravimétrica](notebooks/08_basico_gravimetria.ipynb) | Criterio de concentración, balance de mesa Wilfley, distribución de Au | [Excel](data/08_gravimetria_rio_suri.xlsx) |
+| 9 | 🟡 Intermedio | [Cianuración: cinética de lixiviación](notebooks/09_intermedio_lixiviacion.ipynb) | Bottle roll, modelo de primer orden, consumo de NaCN, óxido vs sulfuro | [Excel](data/09_lixiviacion_nevado_kachi.xlsx) |
 
 Cada notebook es **autocontenido**: teoría → código comentado → gráficos → conclusiones metalúrgicas. Los gráficos ya están ejecutados y se ven directamente en GitHub.
 
 ## 🎯 Habilidades demostradas
 
 - **Python / pandas** — lectura de Excel, limpieza, agrupaciones, vectorización
-- **Metalurgia** — balances de masa, flotación multietapa, clasificación, refractariedad del oro
+- **Metalurgia** — balances de masa, flotación multietapa, gravimetría, cinética de cianuración, clasificación, refractariedad del oro
 - **Visualización** — matplotlib: series de tiempo, boxplots, curvas de partición, matrices de correlación
 - **Machine Learning** — scikit-learn: regresión lineal, Random Forest, validación honesta
 - **SQL** — consultas sobre base de datos de planta con SQLite
@@ -38,7 +40,7 @@ Cada notebook es **autocontenido**: teoría → código comentado → gráficos 
 ## 🚀 Cómo ejecutar
 
 ```bash
-git clone https://github.com/TU_USUARIO/data-science-metalurgia.git
+git clone https://github.com/jhonaguila/data-science-metalurgia.git
 cd data-science-metalurgia
 pip install pandas numpy matplotlib scipy scikit-learn openpyxl jupyter
 jupyter lab notebooks/
@@ -47,8 +49,8 @@ jupyter lab notebooks/
 ## 📁 Estructura
 
 ```
-├── data/        # 7 archivos Excel con datos simulados
-├── notebooks/   # 7 notebooks resueltos (básico → avanzado)
+├── data/        # 9 archivos Excel con datos simulados
+├── notebooks/   # 9 notebooks resueltos (básico → avanzado)
 └── README.md
 ```
 
