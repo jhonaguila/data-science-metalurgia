@@ -25,6 +25,7 @@ Portafolio de **Jhon Aguila** — ejercicios resueltos de análisis de datos apl
 | 7 | 🔴 Avanzado | [SQL desde cero con datos de planta](notebooks/07_avanzado_sql_planta.ipynb) | SQLite, SELECT, WHERE, GROUP BY, JOIN, Pareto de paradas | [Excel](data/07_planta_turnos_apumarca.xlsx) |
 | 8 | 🟢 Básico | [Concentración gravimétrica](notebooks/08_basico_gravimetria.ipynb) | Criterio de concentración, balance de mesa Wilfley, distribución de Au | [Excel](data/08_gravimetria_rio_suri.xlsx) |
 | 9 | 🟡 Intermedio | [Cianuración: cinética de lixiviación](notebooks/09_intermedio_lixiviacion.ipynb) | Bottle roll, modelo de primer orden, consumo de NaCN, óxido vs sulfuro | [Excel](data/09_lixiviacion_nevado_kachi.xlsx) |
+| 10 | 🔴 Avanzado | [SQL nivel 2: comercialización y sensores](notebooks/10_avanzado_sql_comercializacion.ipynb) | JOIN, CASE WHEN, HAVING, valorización de concentrados, alertas de planta | [Excel](data/10_comercializacion_sensores.xlsx) |
 
 Cada notebook es **autocontenido**: teoría → código comentado → gráficos → conclusiones metalúrgicas. Los gráficos ya están ejecutados y se ven directamente en GitHub.
 
@@ -49,8 +50,8 @@ jupyter lab notebooks/
 ## 📁 Estructura
 
 ```
-├── data/        # 9 archivos Excel con datos simulados
-├── notebooks/   # 9 notebooks resueltos (básico → avanzado)
+├── data/        # 10 archivos Excel con datos simulados
+├── notebooks/   # 10 notebooks resueltos (básico → avanzado)
 └── README.md
 ```
 
